@@ -1,0 +1,44 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/enter/enter",
+        "pages/rentred/rentred",
+        "pages/return/return",
+        "pages/mine/mine",
+        "pages/showlist/showlist",
+        "pages/rentconfirm/rentconfirm",
+        "pages/display/display"
+
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "无人机借用平台",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+      "color": "green",
+      "selectedColor": "skyblue",
+      "backgroundColor": "#fff",
+      "position": "bottom",
+      "borderStyle": "black",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "首页",
+          "iconPath": "./image/head.jpg",
+          "selectedIconPath": "./image/bg-image1.jpg"
+        },
+        {
+          "pagePath": "pages/mine/mine",
+          "text": "我的",
+          "iconPath": "./image/logo.png",
+          "selectedIconPath": "./image/head.jpg"
+        }
+      ]
+    }
+    
+      
+}

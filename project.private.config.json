@@ -1,0 +1,60 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "entrance",
+                    "pathName": "pages/enter/enter",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "首页",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "归还页面",
+                    "pathName": "pages/return/return",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "借用确认",
+                    "pathName": "pages/rentconfirm/rentconfirm",
+                    "query": "cid=b",
+                    "scene": null,
+                    "launchMode": "default"
+                },
+                {
+                    "name": "展示页面",
+                    "pathName": "pages/showlist/showlist",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "display",
+                    "pathName": "pages/display/display",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
